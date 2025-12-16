@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+.env
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Data (do NOT commit raw EEG)
+Dataset/
+dataset/
+data/
+
+# Large generated outputs (keep small samples in assets/)
+ProcessedDataset/
+processed/
+results/Processed/
+**/Cleaned_Data/** 
+**/ICA_Reports/** 
+**/*.fif
+
+# Local logs
+*.log

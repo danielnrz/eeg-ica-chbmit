@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "EEG Artifact Removal with ICA (CHB-MIT, MNE-Python)"
+authors:
+  - family-names: "Noroozi"
+    given-names: "Daniel"
+  - family-names: "Sadeghi"
+    given-names: "Samira"
+version: "0.1.0"
+date-released: "2025-12-16"
+license: "MIT"
