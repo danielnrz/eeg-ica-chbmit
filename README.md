@@ -147,8 +147,7 @@ This repo includes a derived CSV produced by the pipeline (no raw EEG):
 
 ---
 
-## Known limitations (honest engineering section)
-
+## Known limitations
 1. **Channel comparability in QC:**  
    CHB-MIT raw channels are often **bipolar derivations** (e.g., `FP1-F7`), while cleaned channels are renamed to **single labels** (e.g., `Fp1`).  
    The current QC is a *useful proxy*, but strict apples-to-apples comparisons require computing QC on the same signal definition.
