@@ -1,7 +1,6 @@
 # EEG Artifact Removal with ICA (CHB-MIT, MNE-Python)
 
 **Authors:** Daniel Noroozi, Samira Sadeghi  
-**Context:** Digital Signal and Image Management
 
 This repository contains an end-to-end EEG preprocessing pipeline built on **MNE-Python** to clean CHB-MIT scalp EEG recordings using **ICA (Independent Component Analysis)** and generate **per-file ICA diagnostics** plus a **global quality-control (QC) report**.
 
