@@ -105,9 +105,9 @@ python scripts/qc_single_example.py --raw Dataset/CHB-MIT/chb01/chb01_01.edf --c
 This project uses **simple, interpretable proxies** to summarize cleaning:
 
 - **Variance reduction (%)**  
-  \[
+  $$
   100 \times (1 - \frac{\mathrm{Var}(clean)}{\mathrm{Var}(raw)})
-  \]
+  $$
   Intuition: large motion/blink artifacts often inflate variance, so cleaning should reduce it.
 
 - **Kurtosis** (spikiness)  
